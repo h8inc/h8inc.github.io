@@ -74,7 +74,6 @@
 
 <div class="roi-wrapper">
     <div class="roi-block" on:change={()=> showExplanation = false}>
-        <img src="roger-logo.jpg" alt="Roger's logo">
         <h1>ROI with Roger</h1>
         <div class="roi-group">
             <h2>Your accounting team</h2>
@@ -106,7 +105,6 @@
     </div>
     {:else}
     <div class="roi-block sticky">
-        <img src="roger-logo.svg" alt="Roger's logo">
         <h1>ROI with Roger</h1>
         <label>Hours per week saved per employee:</label>
         <div class="roi-result">{wastedHoursProject.toLocaleString('en', decimalOptions)}</div>
